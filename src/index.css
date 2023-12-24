@@ -1,0 +1,60 @@
+@tailwind utilities;
+@tailwind base;
+@tailwind components;
+
+
+
+@font-face {
+    font-family: ali;
+    src: url(assets/font/HedvigLettersSans-Regular.ttf);
+}
+
+@keyframes dp1 {
+    from {
+        transform: translateY(0px)rotate(20deg);
+    }
+
+    to {
+        transform: translateY(15px)rotate(20deg);
+    }
+}
+
+@keyframes dp2 {
+    from {
+        transform: translateY(0px)rotate(13deg);
+    }
+
+    to {
+        transform: translateY(15px)rotate(13deg);
+    }
+}
+
+@keyframes rf {
+    from {
+        transform: translateX(50%);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+/* * {
+    scrollbar-width: thin;
+    scrollbar-color: var(--secondary) var(--primary);
+} */
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+    width: 10px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #aba9ac;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #222222;
+    border-radius: 14px;
+
+}
