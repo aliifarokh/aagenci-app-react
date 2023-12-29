@@ -9,15 +9,14 @@
 </div>
 <br />
 <a href="https://aagenci-app-react.vercel.app/">
-  <img src="public/d797b458-1a68-41af-a637-00567ee4414e.png" alt="blue bank" />
+  <img src="public/aagenci.png" alt="aagenci" />
 </a>
 
 <pre style="font-size: 25px ; color: white;">
   I Created This project using :
   Reactjs 
   tailwindcss
-  Swiper js
-  Material UI
+  
 </pre>
 
 I Deployed it on vercel and You Can See it Online :  https://aagenci-app-react.vercel.app/
